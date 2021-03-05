@@ -1,0 +1,83 @@
+.main-fix{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #4d4dff;
+    height: 62px;
+}
+.text-nav{
+    color: white;
+    padding-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text-nav-active{
+    color: #000000;
+    padding-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text-nav:hover{
+    padding-top: 15px;
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.text-nav-log{
+    color: white;
+    padding-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.img-main{
+    padding-top: 50px;
+}
+.p-text{
+    padding-top: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.p-glav{
+    padding-top: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.the-end{
+    background-color: #4d4dff;
+    height: 40px;
+    margin-top: 10px;
+}
+.img-oferta{
+    width: 275px;
+    height: 225px;
+    margin-top: 90px;
+    text-align: center;
+}
+.img-oferta:hover{
+    animation-name: przyblizanie;
+    animation-duration: 2000ms;
+}
+@keyframes przyblizanie {
+    from {
+        width: 275px;
+        height: 225px;
+        margin-top: 90px;
+        text-align: center;
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+.p-text-oferta{
+    padding-top: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.p-text-oferta-odst{
+    margin-top: 90px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.p-text-okna{
+    padding-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
